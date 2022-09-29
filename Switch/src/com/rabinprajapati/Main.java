@@ -59,7 +59,7 @@ public class Main {
 
         }
 
-        String month = "April";
+        String month = "January";
         switch(month.toUpperCase()) {
             case "January":
                 System.out.println("Jan");
@@ -70,6 +70,42 @@ public class Main {
             default:
                 System.out.println("Not sure");
         }
+
+        String day = "Monday";
+        switch(day) {
+            case "Sunday":
+            System.out.println("Sun");
+            break;
+
+            case "Monday":
+                System.out.println("Mon");
+                break;
+
+            case "Tuesday":
+                System.out.println("Tues");
+                break;
+
+            case "Wednesday":
+                System.out.println("Wed");
+                break;
+
+            case "Thursday":
+                System.out.println("Thus");
+                break;
+            case "Friday":
+                System.out.println("Fri");
+                break;
+            case "Saturday":
+                System.out.println("Sat");
+                break;
+            default:
+                System.out.println("Not available day");
+
+
+        }
+
+
+
 
     }
 }
